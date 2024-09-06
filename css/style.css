@@ -1,0 +1,33 @@
+.menu, .menu1, .menu2, .menu3, .menu4{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    list-style: decimal;
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+    font-size: 3em;
+    font-style: oblique;
+    padding: 30px 10px;
+}
+.menu1{
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.menu2{
+background-color: chartreuse;
+justify-content: space-around;
+}
+
+.menu3{
+    background-color: blueviolet;
+    justify-content: first baseline;
+
+
+}
+
+.menu4 {
+    background-color: crimson;
+    justify-content: unset;
+
+}
